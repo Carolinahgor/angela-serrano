@@ -341,7 +341,7 @@ footer p {
 
 }
 
-@media screen and (max-width: 767px) and (min-width: 501px) {
+@media screen and (max-width: 768px) and (min-width: 501px) {
 
 	.mediamentions {
 		margin: auto;
