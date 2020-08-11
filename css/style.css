@@ -34,7 +34,7 @@ h5 {
 
 .banner {
 	color: white;
-	margin: 40px 0 40px 0;
+	margin: 100px 0 40px 0;
 	flex-direction: column;
 	align-items: center;
 	padding: 0px 100px 0px 100px;
@@ -363,6 +363,8 @@ footer p {
 
 
 @media (min-width: 768px) {
+
+
 	.about {
 		padding: 100px 200px 50px 200px;
 	    margin-top: 60px;
