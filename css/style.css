@@ -152,6 +152,14 @@ h5 {
 	margin-top: 50px;
 }
 
+
+.cardsizing {
+	width: 18rem; 
+	height: 523px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 .card-title {
 	color: black;
 	margin-top: 0px;
@@ -196,6 +204,15 @@ h5 {
 
 .inner:hover img {
 	transform: scale(1.5);
+}
+
+.mediasizing {
+	width: 18rem;
+}
+
+.mediairregularsizing {
+	width: 18rem;
+	height: 538px;
 }
 
 
@@ -361,8 +378,43 @@ footer p {
 
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+ 
+ .brief {
+	padding: 10px;
+}
 
-@media (min-width: 768px) {
+.about .col-md-6 {
+	width: 100%;
+}
+
+.journal-heading {
+	width: 100%;
+}
+
+.imgchange {
+	max-width: 1000%;
+}
+
+.cardsizing {
+	width: 13rem; 
+	height: 520px;
+
+}
+
+.mediasizing {
+	width: 12rem;
+}
+
+.mediairregularsizing {
+	width: 12rem;
+	height: 538px;
+}
+
+}
+
+
+@media (min-width: 1024px) {
 
 
 	.about {
@@ -382,6 +434,15 @@ footer p {
 
 	.journal-heading {
 		margin-top: 0px;
+	}
+
+	.mediasizing {
+		width: 20rem;
+	}
+
+	.mediairregularsizing {
+		width: 20rem;
+		height: 538px;
 	}
 
 
@@ -468,6 +529,12 @@ footer p {
 		width: 35px;
 		margin-top: 16px;
 		margin-right: 20px;
+
+	}
+
+	.cardsizing {
+		width: 20rem; 
+		height: 520px;
 
 	}
 }
