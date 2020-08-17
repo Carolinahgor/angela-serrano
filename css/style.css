@@ -79,13 +79,18 @@ h5 {
 
 }
 
+#aboutmargintop {
+	margin-top: 20px;
+}
+
 .about .row {
 	margin-top: 50px;
 
 }
 
-.about p {
-	margin-top: 20px;
+#last-paragraph-about {
+	margin-top: 15px;
+	padding-left: 10px;
 }
 
 .research {
@@ -228,7 +233,7 @@ h5 {
 }
 
 .teaching h5 {
-	padding: 50px 0px 0px 100px;
+	padding: 50px 0px 0px 30px;
 	margin-top: 10px;
 } 
 
@@ -250,9 +255,15 @@ h5 {
 	line-height: 27px;
 }
 
+#teachingapproachmargintop {
+	margin-top: 20px;
+}
+
 .teaching p {
-	padding: 40px 30px 40px 30px;
+	padding-right: 50px;
+	padding-left: 30px;
 	line-height: 27px;
+
 } 
 
 .teaching h4 {
@@ -273,8 +284,8 @@ h5 {
 	margin-top: 70px;
 }
 
-#syllabus {
-	padding: 70px 140px 70px 50px;
+.syllabus {
+	padding: 50px 140px 50px 20px;
 }
 
 #trainingrow {
@@ -292,7 +303,7 @@ h5 {
 
 
 .qualitativefeedback h5 {
-	padding: 50px 0px 0px 100px;
+	padding: 50px 0px 0px 50px;
 	margin-top: 30px;
 }
 
@@ -323,7 +334,7 @@ h5 {
 }
 
 #evaluations {
-	padding: 0 40px 0px 40px;
+	padding: 0 40px 0px 50px;
 	font-family:  'Libre Baskerville', serif;
 }
 
@@ -376,6 +387,17 @@ footer p {
 	font-family:  'Libre Baskerville', serif;
 }
 
+	#teachingapproachmargintop {
+		margin-top: 20px;
+	}
+
+	.teaching p {
+		padding-right: 50px;
+		padding-left: 60px;
+		line-height: 27px;
+
+	} 
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -411,6 +433,17 @@ footer p {
 	height: 538px;
 }
 
+#teachingapproachmargintop {
+	margin-top: 20px;
+}
+
+.teaching p {
+	padding-right: 50px;
+	padding-left: 50px;
+	line-height: 27px;
+
+} 
+
 }
 
 
@@ -425,6 +458,10 @@ footer p {
 	.about h6 {
 		line-height: 30px;
 		margin-top: 0px;
+	}
+
+	#aboutmargintop {
+	margin-top: 0px;
 	}
 
 	.research {
@@ -442,7 +479,7 @@ footer p {
 
 	.mediairregularsizing {
 		width: 20rem;
-		height: 538px;
+		height: 569px;
 	}
 
 
@@ -461,13 +498,18 @@ footer p {
 	line-height: 27px;
 	}
 
+	#teachingapproachmargintop {
+		margin-top: 40px;
+	}
+
 	.teaching p {
-		padding: 70px 100px 50px 100px;
+		padding-right: 100px;
+		padding-left: 110px;
 		line-height: 27px;
 	} 
 
 	.teaching h4 {
-		padding: 120px 100px 120px 150px;
+		padding: 120px 100px 120px 110px;
 	}
 
 	.studentcomment {
@@ -536,6 +578,20 @@ footer p {
 		width: 20rem; 
 		height: 520px;
 
+	}
+
+	.syllabus {
+	padding: 80px 140px 50px 20px;
+	}
+
+	.qualitativefeedback h5 {
+	padding: 50px 0px 0px 110px;
+	margin-top: 30px;
+	}
+
+	#last-paragraph-about {
+	margin-top: 15px;
+	padding-left: 10px;
 	}
 }
 
